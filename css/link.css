@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.article {
+    margin-top: 25vh;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    user-select: none;
+    /*Без названия*/
+    font-size: 8vh;
+    font-family: italic;
+}
+
+h2 {
+    user-select: none;
+}
+
+.header{
+text-align: center;
+}
+
+.menu_links {
+    text-align: center;
+}
+
+li a{
+    border: 1px solid transparent;
+    color: #080808;
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    text-transform: uppercase;
+}
+
+li a:hover {
+    background: #f08c09;
+}
+
+nav {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+
+/*Кнопка, используемая для открытия формы чата - закреплена в нижней части страницы */
+.open-buttom {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* Всплывающий чат - скрыт по умолчанию */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Добавление стилей в контейнер */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Полноразмерная текстовая область */
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+/* Когда текстовая область получит фокус, сделайте что-нибудь */
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Установите стиль для кнопки отправить/кнопка */
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Добавьте красный цвет фона к кнопке отмена */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Добавьте некоторые эффекты наведения на кнопки */
+.form-container .btn:hover,
+.open-buttom:hover {
+    opacity: 1;
+}
+
+h1{
+    color:rgb(119, 45, 11);
+}
+
+h2 {
+    color: #060444;
+}
+
+h3 {
+    color: #f57004;
+}
+p{
+    color: rgb(77, 58, 7);
+    font-size: 20px;
+}
+
+.general_block {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 55vh;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-block-end: 25%;
+    
+}
+
+.block_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3%;
+    padding: 12px;
+    background-color: rgb(241, 168, 85); 
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+-moz-box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+}
+
+.block_1:hover {
+    transition: .8s;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+    box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+}
+
+.block_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3%;
+    padding: 12px;
+    background-color: rgb(241, 168, 85);
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+-moz-box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+}
+
+.block_2:hover {
+    transition: .8s;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+    box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+}
+
+.block_3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3%;
+    padding: 12px;
+    background-color: rgb(241, 168, 85); 
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+-moz-box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+box-shadow: 10px 10px 5px 0px rgb(77, 49, 23);
+}
+
+.block_3:hover {
+    transition: .8s;
+    -webkit-box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+    -moz-box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+    box-shadow: 10px 10px 5px 0px rgb(182, 171, 10);
+}
